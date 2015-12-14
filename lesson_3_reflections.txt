@@ -7,3 +7,12 @@ Question: Why might you want to always pull changes manually rather than having 
 You could reduce internet traffic if you do not always stay up-to-date. In
 addition, you may have set up things so that somebody else can commit to the
 remote and you might want to see what they have committed first.
+
+Question: Describe the differences between forks, clones, and branches.
+When would you use one instead of another?
+
+The clone command copies a repository to a machine. You cannot clone a
+reposity "into" Github. A fork copies a reposity on Github and handles some
+details like incrementing a counter on the original repository that keeps
+track on how often the repo was cloned. A branch is just a label for a
+sequence of commits.
