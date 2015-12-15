@@ -16,3 +16,14 @@ reposity "into" Github. A fork copies a reposity on Github and handles some
 details like incrementing a counter on the original repository that keeps
 track on how often the repo was cloned. A branch is just a label for a
 sequence of commits.
+
+Question: What is the benefit of having a copy of the last known state of
+the remote stored locally?
+
+This allows you to compare the state of the remote and your own branch. Git
+has to keep track of where the remote changes "branched" from your own ones
+somehow. While this is also clear from the commit id, so that it can be
+inferred from the history of the remote, it is also nice to have this
+information locally, for example because you trust this information more.
+It also allows you to see how far ahead you are of the last sync with the
+remote.
