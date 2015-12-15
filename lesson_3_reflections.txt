@@ -27,3 +27,11 @@ inferred from the history of the remote, it is also nice to have this
 information locally, for example because you trust this information more.
 It also allows you to see how far ahead you are of the last sync with the
 remote.
+
+Question: How would you collaborate without using Git or GitHub? What would
+be easier, and what would be harder?
+
+I could just edit plain text files on Github. I wouldn't be able to use a
+fancy text editor and I would need internet access continously to edit files,
+as opposed to just once to upload the file. Making a quick fix like a typo
+would probably be more convenient using Github.
